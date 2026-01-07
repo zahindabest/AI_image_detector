@@ -1,0 +1,12 @@
+# Ignore the dataset folder and zip file
+archive/
+archive.zip
+
+# Ignore python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Ignore virtual envs
+.venv/
+env/
