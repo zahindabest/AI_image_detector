@@ -1,12 +1,11 @@
-# Ignore the dataset folder and zip file
+# Ignore Dataset
+real_vs_fake/
 archive/
-archive.zip
 
-# Ignore python cache
+# Ignore Python Cache
 __pycache__/
-*.pyc
-.ipynb_checkpoints/
+*.ipynb_checkpoints/
+venv/
 
-# Ignore virtual envs
-.venv/
-env/
+# Keep the model (It fits on GitHub)
+!api/resnet18_deepfake.pth
