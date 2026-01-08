@@ -1,6 +1,7 @@
 # Ignore Dataset
 real_vs_fake/
 archive/
+*.csv
 
 # Ignore Python Cache
 __pycache__/
