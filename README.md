@@ -79,8 +79,8 @@ The system uses a hybrid approach, routing images to the model best suited for t
 DeepFake-Detector/
 ├── api/
 │   ├── main.py                # FastAPI Backend & Routing Logic
-│   ├── resnet18_deepfake.pth  # Custom Trained Weights
-│   └── requirements.txt       # Python Dependencies
+│   └── resnet18_deepfake.pth  # Custom Trained Weights
+│   
 ├── extension/
 │   ├── manifest.json          # Chrome V3 Manifest
 │   ├── background.js          # Context Menu & API Communication
