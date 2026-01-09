@@ -1,12 +1,25 @@
-# Ignore Dataset
+# --- Dataset & Archives ---
 real_vs_fake/
 archive/
 *.csv
+*.zip
 
-# Ignore Python Cache
+# --- Python & Environment ---
 __pycache__/
 *.ipynb_checkpoints/
 venv/
+.env
 
-# Keep the model (It fits on GitHub)
+# --- Runtime & Debug Files ---
+debug_latest.jpg
+test_image.jpg
+*.log
+
+# --- OS & Editor Clutter ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Exceptions ---
+# ResNet18 is ~45MB, so it fits within GitHub's 100MB limit.
 !api/resnet18_deepfake.pth

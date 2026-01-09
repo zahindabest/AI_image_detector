@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "AI Face Detector",
+  "version": "1.0",
+  "description": "Right-click any image to detect if it is AI-generated.",
+  "permissions": ["contextMenus", "activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
